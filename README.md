@@ -11,6 +11,8 @@ SCP-JPコミュニティのサーバーで稼働させることをターゲッ�
 
 志鳥/Sitriを該当のサーバーにログインさせ、コマンド文字列を送信すると反応します。
 
+Rust環境(Cargo)とDiscord Developer(Discord App)が必要です
+
 ### コマンド
 
 #### ping
