@@ -1,0 +1,16 @@
+[package]
+name = "sitri"
+version = "0.1.0"
+authors = ["Hiroshi Krashiki"]
+publish = false
+license = "MIT OR Apache-2.0"
+# edition = "2018"
+
+[dependencies]
+chrono = "0.4.6"
+regex = "1"
+cute-dnd-dice = "2.0.0"
+
+[dependencies.serenity]
+git = "https://github.com/serenity-rs/serenity.git"
+features = ["framework", "standard_framework"]
